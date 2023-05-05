@@ -1,5 +1,5 @@
 #servicos {
-    background-color: #663128;
+    background-color: var(--marrom-2);
     width: 100vw;
     padding-top: 50px;
 }
