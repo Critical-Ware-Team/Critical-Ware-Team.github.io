@@ -3,93 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cardápio</title>
+    <title>Definição de fluxo</title>
+    <link rel="shortcut icon" href="https://keroinovar.com.br/wp-content/uploads/2020/05/favicon-96x96-1.png" type="image/x-icon">
+    <style>
+        body{
+            margin: 0;
+        }
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 40px;
+            background-color: #D5E6ED;
+        }
+        button{
+            background-color: #2766A9;
+            color: #f5f5f5;
+            font-size: 20pt;
+            border: none;
+            border-radius: 12px;
+            padding: 1% 2%;
+            cursor: pointer;
+        }
+        button:hover{
+            box-shadow: inset 1px 1px 10px #1B202390;
+        }
+        h1{
+            position: absolute;
+            top: 30%;
+            font-family: sans-serif;
+            color: #1B2023;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="assets/images/logo-sorveteria.png" alt="logo-sorveteria">
-        <nav>
-            <button class="nav-btn">Cardápio</button>
-            <button class="nav-btn">Carrinho</button>
-        </nav>
-    </header>
     <main>
-        <div class="container-produtos">
-            <!-- <div class="produto">
-                <img src="assets/images/picolenata.png" alt="Foto de picolé">
-                <p>Picolé de Nata</p>
-            </div>
-            <div class="produto">                
-                <img src="assets/images/picolemaracuja.png" alt="Foto de picolé">
-                <p>Picolé de Maracujá</p>
-            </div>
-            <div class="produto">
-                <img src="assets/images/picolemorango.png" alt="Foto de picolé">
-                <p>Picolé de Morango</p>
-            </div>
-            <div class="produto">
-                <img src="assets/images/picolechocolate.png" alt="Foto de picolé">
-                <p>Picolé de Chocolate</p>
-            </div>
-            <div class="produto">
-                <img src="assets/images/picolemanga.png" alt="Foto de picolé">
-                <p>Picolé de Manga</p>
-            </div>
-            <div class="produto">
-                <img src="assets/images/picoletuttifrutti.png" alt="Foto de picolé">
-                <p>Picolé de Tutti-Frutti</p>
-            </div>            
-            <div class="produto">                
-                <img src="assets/images/picoleamora.png" alt="Foto de picolé">
-                <p>Picolé de Amora</p>
-            </div>
-            <div class="produto">
-                <img src="assets/images/picolejabuticaba.png" alt="Foto de picolé">
-                <p>Picolé de Jabuticaba</p>
-            </div>
-            <div class="produto">
-            <img src="assets/images/picoleabacaxiaovinho.png" alt="Foto de picolé">
-            <p>Picolé de Abacaxi ao vinho</p>
-            </div>
-            <div class="produto">
-            <img src="assets/images/picoleabacate.png" alt="Foto de picolé">
-            <p>Picolé de Abacate</p>
-            </div>
-            <div class="produto">                
-            <img src="assets/images/picolegroselha.png" alt="Foto de picolé">
-            <p>Picolé de Groselha</p>
-            </div>
-            <div class="produto">
-            <img src="assets/images/picoleuva.png" alt="Foto de picolé">
-            <p>Picolé de Uva</p>
-            </div>
-            <div class="produto">
-            <img src="assets/images/picoleabacaxi.png" alt="Foto de picolé">
-            <p>Picolé de Abacaxi</p>
-            </div>
-            <div class="produto">
-            <img src="assets/images/picolepistache.png" alt="Foto de picolé">
-            <p>Picolé de Pistache</p>
-            </div>
-            <div class="produto">
-            <img src="assets/images/picolenapolitano.png" alt="Foto de picolé">
-            <p>Picolé de Napolitano</p>
-            </div>
-            <div class="produto">
-                <img src="assets/images/picolecoco.png" alt="Foto de picolé">
-                <p>Picolé de Coco</p>
-            </div> -->
-        </div>
+        <h1>Escolha o fluxo que deseja seguir</h1>
+        <button onclick="window.location.href='fluxo-colaborador/grupos-colaborador'"><strong>Colaborador</strong></button>
+        <button onclick="window.location.href='fluxo-gestor/gerenciar-ideias'"><strong>Gestor</strong></button>
     </main>
-    <footer>
-        <p>&copySorvetes Flor d' Oeste 2023</p>
-        <div class="socials">
-            <img src="assets/images/FB-icon.svg" alt="facebook-icon">
-            <img src="assets/images/YT-icon.svg" alt="youtube-icon">
-            <img src="assets/images/IG-icon.svg" alt="instagram-icon">
-        </div>
-    </footer>
-    <script src="script.js"></script>
 </body>
 </html>
